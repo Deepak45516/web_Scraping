@@ -41,7 +41,7 @@ import requests
 
 
 try:
-    page=requests.get('https://www.indiafreestuff.in/oraimo-firefly-2s-12w-fast-wall-charger')
+    page=requests.get('URL')
 except Exception as e:
     error_type, error_obj, error_info=sys.exc_info()
     print('error for link:',url)
